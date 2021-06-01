@@ -1,0 +1,28 @@
+Package: MyTools
+Type: Package
+Title: My R Tools
+Version: 0.1.0
+Author: Zhou Zhe
+Maintainer: Zhou Zhe <cicadapoplar@163.com>
+Description: Some of my tools to make life a little easier, which include:
+    1. Functions to update Gene Symbols according to HGNC database
+    2. Some functions to plot enrichment result from ClusterProfilier
+License: GPL
+Encoding: UTF-8
+LazyData: true
+Imports:
+    tidyr,
+    clusterProfiler,
+    DOSE,
+    GO.db,
+    org.Hs.eg.db,
+    org.Mm.eg.db,
+    ggplot2,
+    grid,
+    RColorBrewer
+RoxygenNote: 7.1.1
+Collate: 
+    'myplot.R'
+    'GOKEGG.R'
+    'getUpdatedSymbols.R'
+    'hello.R'
